@@ -1,0 +1,1 @@
+### Test app using TypeScript to build ArcGIS JS Apps
