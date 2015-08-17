@@ -7,4 +7,4 @@ var formatter: Function = ((i: number) => {
   }
 });
 
-export = formatter;
+export default formatter;
