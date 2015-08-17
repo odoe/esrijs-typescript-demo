@@ -13,9 +13,9 @@ declare var templateString: string;
 declare var bind: any;
 
 import store from 'app/stores/LocatorStore';
-import format from 'app/helpers/NumFormatter';
+import * as format from 'app/helpers/NumFormatter';
 
-let fixed: any = format(3);
+let fixed: (n: number) => { x: number } = format(3);
 
 var LocatorView = dojoDeclare([_WidgetBase, _TemplatedMixin], {
   templateString,

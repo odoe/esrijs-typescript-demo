@@ -2,12 +2,12 @@
 /// <reference path="../interfaces.d.ts"/>
 /// <amd-dependency path="dojo/topic" name="topic"/>
 
-import { ICoords } from '../interfaces.d';
+import { ICoords } from '../interfaces';
 
-declare var topic:dojo.topic;
+declare var topic: dojo.topic;
 
 var LocatorAction = {
-  updateXY(data:ICoords) {
+  updateXY(data: ICoords) {
     topic.publish('UPDATE-XY', data);
   }
 };
