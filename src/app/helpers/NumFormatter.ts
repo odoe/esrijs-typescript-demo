@@ -2,7 +2,7 @@
 var formatter: (i: number) => (n: number) => { x: number }
   = (i: number) => {
   return (n: any) => {
-    if (n === undefined) {
+    if (!n) {
       return 0;
     }
     return n.toFixed(i);
