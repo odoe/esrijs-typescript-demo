@@ -12,7 +12,7 @@ declare var _TemplatedMixin: dijit._TemplatedMixin;
 declare var templateString: string;
 declare var bind: any;
 
-import * as store from 'app/stores/LocatorStore';
+import store from 'app/stores/LocatorStore';
 import * as format from 'app/helpers/NumFormatter';
 
 let fixed: Function = format(3);
