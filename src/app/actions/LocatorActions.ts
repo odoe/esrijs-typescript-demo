@@ -1,5 +1,3 @@
-/// <reference path="../../../dojo.d.ts"/>
-/// <reference path="../interfaces.d.ts"/>
 /// <amd-dependency path="dojo/topic" name="topic"/>
 
 import { ICoords } from '../interfaces';

@@ -1,4 +1,3 @@
-/// <reference path="../../dojo.d.ts"/>
 /// <amd-dependency path="dojo/domReady!"/>
 import MapView from 'app/views/MapView';
 import LocatorView from 'app/views/LocatorView';

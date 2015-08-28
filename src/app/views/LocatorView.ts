@@ -1,5 +1,3 @@
-/// <reference path="../../../dojo.d.ts"/>
-/// <reference path="../../../arcgis-js-api.d.ts"/>
 /// <amd-dependency path="dojo/_base/declare" name="dojoDeclare"/>
 /// <amd-dependency path="dijit/_WidgetBase" name="_WidgetBase"/>
 /// <amd-dependency path="dijit/_TemplatedMixin" name="_TemplatedMixin"/>

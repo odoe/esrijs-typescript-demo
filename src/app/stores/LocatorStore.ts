@@ -1,4 +1,3 @@
-/// <reference path="../../../dojo.d.ts"/>
 /// <amd-dependency path="dojo/Stateful" name="Stateful"/>
 /// <amd-dependency path="dojo/topic" name="topic"/>
 
